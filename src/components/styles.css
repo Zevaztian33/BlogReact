@@ -1,0 +1,24 @@
+.card{
+    display: none;
+}
+.card-text{
+    font-size: .8rem;
+}
+.btnTop{
+    border-radius: 100%;
+    font-size: 1.4rem;
+    position: fixed;
+    z-index: 1000;
+    bottom: 20px;
+    left: 20px;
+    opacity: .8;
+    animation: scrollTop .5s alternate ease infinite;
+}
+@keyframes scrollTop{
+    from{
+        transform: translateY(2px)
+    }
+    to{
+        transform: translateY(-1px)
+    }
+}
